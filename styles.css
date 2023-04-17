@@ -1,0 +1,11 @@
+:root{
+--branco-principal:#FFFFFF;
+--branco-segundario:#E1D6EB;
+--botao-assine:#A088B4 #bca4cf;
+--cor-de-fundo:#331e3d;
+}
+body{
+
+background-color:var(--cor-de-fundo);
+
+}
