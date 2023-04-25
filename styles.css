@@ -1,15 +1,36 @@
-:root{
---branco-principal:#FFFFFF;
---branco-segundario:#E1D6EB;
---botao-assine:#A088B4 #bca4cf;
---cor-de-fundo:#331e3d;
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #b406e0 #d688e9 ;
+    --cor-de-fundo: #000000;
 }
-body{
-
-background-color: var(--cor-de-fundo);
-color: var(--branco-principal);
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
 }
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+.principal {
+    background-image: url("imagem.filmes.png");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: 525px 1px;
+}
+.posiciona-imagem {
+   position: absolute;
+   top: 20%;
+   left: 18%;
+   transform: translate(-50%, -50%);
+}
+
+.container {
+    height: 100vh;
+}
+.container__botao{
+   background-color: var(--botao-azul);
+   border-radius: 5px;
+   padding: 1em;
 }
