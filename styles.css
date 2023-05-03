@@ -45,11 +45,48 @@ body {
 .frase {
     position: absolute;
    top: 57%;
-   left: 18%;
+   left: 17%;
    transform: translate(-50%, -50%);
     font-family: var(--fonte-principal) ;
     font-size: 14px;
     font-weight: 400;
 }
 
+.pessoaassistindo {
+    position: absolute;
+    top: 150%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.frase1{
+    position: absolute;
+    top: 145%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-family: var(--fonte-principal) ;
+    font-size: 20px;
+    font-weight: 400;
+}
+.frase3{
+    position: absolute;
+    top: 130%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-family: var(--fonte-principal) ;
+    font-size: 35px;
+    font-weight: 400;
+}
+.rodape{
+
+    background-color: #1f0425 ;
+    transform: translate(-50%, -50%);
+  
+}
+.rodapelink{
+    font-family: var(--fonte-principal) ;
+    font-size: 10px;
+    font-weight: 400;  
+    color:#C0C0C0 ; 
+    text-decoration: none;   
 }
